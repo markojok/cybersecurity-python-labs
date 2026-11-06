@@ -1,0 +1,12 @@
+host,port,service,status,response_time_ms,notes
+127.0.0.1,22,SSH,OFFLINE,0.0,TIMEOUT (Connection timed out)
+127.0.0.1,80,HTTP,OFFLINE,0.0,TIMEOUT (Connection timed out)
+localhost,443,HTTPS,OFFLINE,0.0,TIMEOUT (Connection timed out)
+192.0.2.10,80,HTTP,OFFLINE,0.0,TIMEOUT (Connection timed out)
+198.51.100.20,443,HTTPS,OFFLINE,0.0,TIMEOUT (Connection timed out)
+203.0.113.30,22,SSH,OFFLINE,0.0,TIMEOUT (Connection timed out)
+service.example.invalid,8080,HTTP-ALT,OFFLINE,0.0,DNS Resolution Failed
+db.example.invalid,5432,PostgreSQL,OFFLINE,0.0,DNS Resolution Failed
+bad host name,80,HTTP,OFFLINE,0.0,Invalid Host Syntax
+999.10.10.10,443,HTTPS,OFFLINE,0.0,Invalid Host Syntax
+api.example.invalid,70000,UNKNOWN,OFFLINE,0.0,Invalid Port Range (1-65535)
